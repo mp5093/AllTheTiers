@@ -1,17 +1,18 @@
-local resim_recipes = {
-    c_adv_miner = { to = "c_big_miner", use = "bb", amount = 20,  time =  120 },
-}
+-- data.components.resim_recipes = {
+-- 	c_adv_miner = { to = "c_big_miner", use = "bb", amount = 20,  time =  120 },
+-- }
 
 data.components.c_big_miner = data.components.c_miner:RegisterComponent( "c_big_miner", {
 	name = "Very Big Miner",
 	texture = "AllTheTiers/textures/icons/components/Component_LaserExtractor_01_M1.png",
 	desc = "Miner that gets it all done",
-	power = -15,
-	attachment_size = "Medium",
+	power = 0,
+	attachment_size = "Large",
 	visual = "v_laserextractor_01_m",
 	producer_id = "c_big_miner",
 	race = "bots",
-	production_recipe = Flase,
+	production_recipe = CreateProductionRecipe({ crystal_powder = 20, icchip = 20, cable = 20 },
+		{ c_assembler = 120 }),
 	activation = "OnFirstRegisterChange",
 	registers = {
 		{ type = "miner", tip = "Resource to mine and amount", ui_apply = "Set Mining Target", ui_icon = "icon_context" },
