@@ -4,7 +4,7 @@
 	"version_name": "0.0.1",
 	"version_code": 1,
 	"author": "lukejdav",
-	"homepage": "",
+	"homepage": "github.com/lukejdav/AllTheTiers",
 	"description": "Extra tiers for lots of things",
 	"packages": {
 		"Data": {
