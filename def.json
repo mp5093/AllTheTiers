@@ -1,0 +1,17 @@
+{
+	"id": "AllTheTiers",
+	"name": "All The Tiers",
+	"version_name": "1.0",
+	"version_code": 1,
+	"author": "lukejdav",
+	"homepage": "",
+	"description": "Extra tiers for lots of things",
+	"packages": {
+		"Data": {
+			"name": "Data",
+			"entry": "data.lua",
+			"dependencies": [ "Main/Data" ],
+			"type": "Addon"
+		}
+  }
+}
