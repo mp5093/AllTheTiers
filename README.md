@@ -13,10 +13,12 @@ Currently implemented upgrades:
     2x3 Building
     
   Bots:
+  
     Transporter
     Twinbot
     Rock
     
   Components:
+  
     Miner
     Transporter
