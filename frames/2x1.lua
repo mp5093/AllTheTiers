@@ -6,11 +6,11 @@ Frame:RegisterFrame("f_building2x1_2M4S", {
 	slots = { storage = 12 },
 	health_points = 300,
 	race = "robot",
-	construction_recipe = CreateConstructionRecipe({ energized_plate = 30, circuit_board = 20 }, 90),
+	construction_recipe = CreateConstructionRecipe({ metalplate = 60, circuit_board = 60, energized_plate = 10 }, 90),
 	trigger_channels = "building",
 	texture = "AllTheTiers/textures/icons/frame/building_2x1_e1.png",
 	visual = "v_base2x1_2M4S",
-	size = "Medium"
+	size = "Large"
 })
 data.visuals.v_base2x1_2M4S = {
 	mesh = "StaticMesh'/Game/Meshes/RobotBuildings/Building_2x1_E.Building_2x1_E'",

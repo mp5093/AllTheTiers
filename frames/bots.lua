@@ -6,7 +6,7 @@ Frame:RegisterFrame("f_bot_transporter2", {
 	slot_type = "garage",
 	visibility_range = 20,
 	slots = { storage = 24, },
-	movement_speed = 20,
+	movement_speed = 12,
 	start_disconnected = true,
 	power = -10,
 	size = "Unit",
