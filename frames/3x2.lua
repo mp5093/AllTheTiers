@@ -1,3 +1,5 @@
+table.insert(data["techs"]["t_structures4"].unlocks, "f_building2x2_3L9M")
+
 Frame:RegisterFrame("f_building2x2_3L9M", {
 	name = "3x2 3L9M",
 	desc = "An upgraded 3x2 building",

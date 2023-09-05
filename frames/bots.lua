@@ -1,3 +1,7 @@
+table.insert(data["techs"]["t_robotics0"].unlocks, "f_bot_transporter2")
+table.insert(data["techs"]["t_structures4"].unlocks, "f_bot_rock3")
+table.insert(data["techs"]["t_robotics0"].unlocks, "f_bot_twin2")
+
 Frame:RegisterFrame("f_bot_transporter2", {
 	texture = "AllTheTiers/textures/icons/frame/transport_bot1.png",
 	name = "Transporter 2",

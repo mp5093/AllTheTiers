@@ -1,3 +1,5 @@
+table.insert(data["techs"]["t_structures2"].unlocks, "f_building2x2_2L4M2S")
+
 Frame:RegisterFrame("f_building2x2_2L4M2S", {
 	name = "2x2 2L4M2S",
 	desc = "An upgraded 2x2 building",
@@ -10,7 +12,7 @@ Frame:RegisterFrame("f_building2x2_2L4M2S", {
 	trigger_channels = "building",
 	texture = "AllTheTiers/textures/icons/frame/building_2x2_c1.png",
 	visual = "v_base2x2_2L4M2S",
-	size = "Medium"
+	size = "Large"
 })
 data.visuals.v_base2x2_2L4M2S = {
 	mesh = "StaticMesh'/Game/Meshes/RobotBuildings/Building_2x2_C.Building_2x2_C'",

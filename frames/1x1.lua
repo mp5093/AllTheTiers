@@ -1,3 +1,5 @@
+table.insert(data["techs"]["t_robot_tech_basic"].unlocks, "f_building1x1_4S")
+
 Frame:RegisterFrame("f_building1x1_4S", {
 	name = "1x1 4S",
 	desc = "An upgraded 1x1 building",
