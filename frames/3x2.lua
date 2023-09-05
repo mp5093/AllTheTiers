@@ -5,7 +5,7 @@ Frame:RegisterFrame("f_building2x2_3L9M", {
 	desc = "An upgraded 3x2 building",
 	minimap_color = { 0.8, 0.8, 0.8 },
 	visibility_range = 40,
-	slots = { garage = 2, storage = 20 },
+	slots = { storage = 20 },
 	health_points = 500,
 	race = "robot",
 	construction_recipe = CreateConstructionRecipe({ icchip = 20, energized_plate = 40, hdframe = 40 }, 150),
