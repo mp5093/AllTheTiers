@@ -31,7 +31,7 @@ data.visuals.v_base1x1e1 = {
 
 Frame:RegisterFrame("f_building1x1_garage_8", {
 	name = "Garage (8)",
-	desc = "A amall garage.",
+	desc = "A small garage.",
 	minimap_color = { 0.8, 0.8, 0.8 },
 	visibility_range = 16,
 	slots = { garage = 8 },

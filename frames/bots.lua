@@ -1,6 +1,7 @@
 table.insert(data["techs"]["t_robotics0"].unlocks, "f_bot_transporter2")
 table.insert(data["techs"]["t_structures4"].unlocks, "f_bot_rock3")
 table.insert(data["techs"]["t_robotics0"].unlocks, "f_bot_twin2")
+table.insert(data["techs"]["t_robotics2"].unlocks, "f_bot_1m1s1")
 
 Frame:RegisterFrame("f_bot_transporter2", {
 	texture = "AllTheTiers/textures/icons/frame/transport_bot1.png",
@@ -108,6 +109,44 @@ data.visuals.v_bot_twin2 = {
 		{ "", "Small" },
 		{ "", "Small" },
 		{ "", "Small" },
+		{ "", "Internal" },
+		{ "", "Internal" },
+		{ "", "Internal" },
+		{ "", "Internal" }
+	},
+	move_effect = "fx_move_bot",
+	destroy_effect = "fx_digital",
+}
+
+Frame:RegisterFrame("f_bot_1m1s1", {
+	texture = "AllTheTiers/textures/icons/frame/bot_1m1s_a1.png",
+	name = "Hound 2",
+	desc = "An upgraded version of the Hound, more sockets and a big battery",
+	minimap_color = { 0.9, 0.9, 0.8 },
+	slot_type = "garage",
+	visibility_range = 20,
+	size = "Unit",
+	power = -6,
+	health_points = 250,
+	slots = { storage = 12, },
+	movement_speed = 5,
+	start_disconnected = true,
+	race = "robot",
+	flags = "AnimateRoot",
+	components = { { "c_medium_capacitor", "hidden" } },
+	trigger_channels = "bot",
+	production_recipe = CreateProductionRecipe({ circuit_board = 20, hdframe = 20, optic_cable = 5 }, { c_robotics_factory = 80 }),
+	visual = "v_bot_1m1s1_a1",
+})
+data.visuals.v_bot_1m1s1_a1 = {
+	mesh = "StaticMesh'/Game/Meshes/RobotUnits/Bot_1M1S_A.Bot_1M1S_A'",
+	light_radius = 8,
+	light_color = { 0.5, 0.5, 0.5, 3 },
+	sockets = {
+		{ "Medium", "Medium" },
+		{ "Medium", "Medium" },
+		{ "Small", "Small" },
+		{ "Small", "Small" },
 		{ "", "Internal" },
 		{ "", "Internal" },
 		{ "", "Internal" },
