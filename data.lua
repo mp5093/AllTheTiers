@@ -1,10 +1,9 @@
 local package = ...
 
 package.includes = {
-	"components/",
 	"frames/",
-	"tech/",
-	"resim/"
+	"components/",
+	"components/production.lua"
 }
 
 function package:init()

@@ -66,9 +66,9 @@ data.visuals.v_bot_rock3 = {
 	light_radius = 8,
 	light_color = { 0.5, 0.5, 0.5, 3 },
 	sockets = {
-		{ "Large", "Large" },
-		{ "Large", "Large" },
-		{ "Large", "Large" },
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
 		{ "", "Internal" },
 		{ "", "Internal" },
 		{ "", "Internal" },
