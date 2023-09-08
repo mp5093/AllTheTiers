@@ -15,7 +15,7 @@ data.components.c_assembler_big = data.components.c_fabricator:RegisterComponent
 	production_recipe = CreateProductionRecipe({ energized_plate = 20, optic_cable = 20, icchip = 10 }, {c_assembler = 100 }),
 })
 data.visuals.v_assembler_01_m1  = { mesh = "StaticMesh'/Game/Meshes/BaseBuildings/Component_Assembler_01_M.Component_Assembler_01_M'", 
-	light_color = { 1.0, 0, 0, 0.8 }
+	light_color = { 0.8, 0.8, 0.8, 0.8 }
 }
 
 data.items.alien_artifact.production_recipe.producers.c_assembler_big = 200
