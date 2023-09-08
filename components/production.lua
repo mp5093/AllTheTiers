@@ -1,4 +1,7 @@
 table.insert(data["techs"]["t_storage2"].unlocks, "c_assembler_big")
+-- table.insert(data["techs"]["t_robots_alien_research"].unlocks, "c_alien_factory")
+-- table.insert(data["techs"]["t_robots_alien_research"].unlocks, "alien_artifact_research")
+-- table.insert(data["techs"]["t_robots_alien_research"].unlocks, "alien_core")
 
 data.components.c_assembler_big = data.components.c_fabricator:RegisterComponent("c_assembler_big", {
 	name = "Multipurpose Assembler",
@@ -12,10 +15,12 @@ data.components.c_assembler_big = data.components.c_fabricator:RegisterComponent
 	production_recipe = CreateProductionRecipe({ energized_plate = 20, optic_cable = 20, icchip = 10 }, {c_assembler = 100 }),
 })
 data.visuals.v_assembler_01_m1  = { mesh = "StaticMesh'/Game/Meshes/BaseBuildings/Component_Assembler_01_M.Component_Assembler_01_M'", 
-	light_color = { 0.8, 0.8, 0.8, 0.8 }
+	light_color = { 1.0, 0, 0, 0.8 }
 }
 
-data.items.alien_artifact.production_recipe.producers.c_assembler_big = 80
+data.items.alien_artifact.production_recipe.producers.c_assembler_big = 200
+-- table.insert(data.components.c_alien_factory.production_recipe, CreateProductionRecipe({ alien_artifact = 20, obsidian = 100 }, { c_assembler_big = 400 }) )
+-- data.components.c_alien_factory.non_removable = false
 
 for k, v in pairs( data.items ) do
 	if data.items[ k ].production_recipe == nil then
