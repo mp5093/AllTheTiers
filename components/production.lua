@@ -15,6 +15,8 @@ data.visuals.v_assembler_01_m1  = { mesh = "StaticMesh'/Game/Meshes/BaseBuilding
 	light_color = { 0.8, 0.8, 0.8, 0.8 }
 }
 
+data.items.alien_artifact.production_recipe.producers.c_assembler_big = 80
+
 for k, v in pairs( data.items ) do
 	if data.items[ k ].production_recipe == nil then
 	else
