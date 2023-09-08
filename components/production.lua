@@ -19,6 +19,18 @@ for k, v in pairs( data.items ) do
 	if data.items[ k ].production_recipe == nil then
 	else
 
+		if data.items[ k ].production_recipe.producers.c_virus_decomposer == nil then
+		else
+			data.items[ k ].production_recipe.producers.c_assembler_big = 
+						data.items[ k ].production_recipe.producers.c_virus_decomposer*2
+		end
+
+		if data.items[ k ].production_recipe.producers.c_human_factory_robots == nil then
+		else
+			data.items[ k ].production_recipe.producers.c_assembler_big = 
+						data.items[ k ].production_recipe.producers.c_human_factory_robots*2
+		end
+
 		if data.items[ k ].production_recipe.producers.c_data_analyzer == nil then
 		else
 			data.items[ k ].production_recipe.producers.c_assembler_big = 
@@ -58,6 +70,18 @@ for k, v in pairs( data.components ) do
 		if data.components[ k ].production_recipe == false then
 		else
 
+			if data.components[ k ].production_recipe.producers.c_virus_decomposer == nil then
+			else
+				data.components[ k ].production_recipe.producers.c_assembler_big = 
+							data.components[ k ].production_recipe.producers.c_virus_decomposer*2
+			end
+
+			if data.components[ k ].production_recipe.producers.c_human_factory_robots == nil then
+			else
+				data.components[ k ].production_recipe.producers.c_assembler_big = 
+							data.components[ k ].production_recipe.producers.c_human_factory_robots*2
+			end
+
 			if data.components[ k ].production_recipe.producers.c_data_analyzer == nil then
 			else
 				data.components[ k ].production_recipe.producers.c_assembler_big = 
@@ -96,6 +120,18 @@ for k, v in pairs( data.frames ) do
 	else
 		if data.frames[ k ].production_recipe == false then
 		else
+
+			if data.frames[ k ].production_recipe.producers.c_virus_decomposer == nil then
+			else
+				data.frames[ k ].production_recipe.producers.c_assembler_big = 
+							data.frames[ k ].production_recipe.producers.c_virus_decomposer*2
+			end
+
+			if data.frames[ k ].production_recipe.producers.c_human_factory_robots == nil then
+			else
+				data.frames[ k ].production_recipe.producers.c_assembler_big = 
+							data.frames[ k ].production_recipe.producers.c_human_factory_robots*2
+			end
 
 			if data.frames[ k ].production_recipe.producers.c_data_analyzer == nil then
 			else
