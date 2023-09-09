@@ -1,4 +1,4 @@
-table.insert(data["techs"]["t_robotics10"].unlocks, "f_building2x1_2M4S")
+table.insert(data.techs.t_tiers_buildings1.unlocks, "f_building2x1_2M4S")
 
 Frame:RegisterFrame("f_building2x1_2M4S", {
 	name = "2x1 2M4S",
@@ -8,7 +8,7 @@ Frame:RegisterFrame("f_building2x1_2M4S", {
 	slots = { storage = 12 },
 	health_points = 300,
 	race = "robot",
-	construction_recipe = CreateConstructionRecipe({ metalplate = 60, circuit_board = 60, energized_plate = 10 }, 90),
+	construction_recipe = CreateConstructionRecipe({ metalplate = 60, special_circuit_board = 60, energized_plate = 10 }, 90),
 	trigger_channels = "building",
 	texture = "AllTheTiers/textures/icons/frame/building_2x1_e1.png",
 	visual = "v_base2x1_2M4S",

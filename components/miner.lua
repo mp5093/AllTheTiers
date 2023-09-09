@@ -1,4 +1,4 @@
-table.insert(data["techs"]["t_robotics2"].unlocks, "c_big_miner")
+table.insert(data.techs.t_tiers_components3.unlocks, "c_big_miner")
 
 -- data.components.resim_recipes = {
 -- 	c_adv_miner = { to = "c_big_miner", use = "bb", amount = 20,  time =  120 },

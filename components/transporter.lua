@@ -1,4 +1,4 @@
-table.insert(data["techs"]["t_structures4"].unlocks, "c_transporter_big")
+table.insert(data.techs.t_tiers_components3.unlocks, "c_transporter_big")
 
 data.components.c_transporter_big = data.components.c_crane:RegisterComponent("c_transporter_big", {
 	name = "Big Transporter",

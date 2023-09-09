@@ -1,7 +1,7 @@
-table.insert(data["techs"]["t_robotics0"].unlocks, "f_bot_transporter2")
-table.insert(data["techs"]["t_structures4"].unlocks, "f_bot_rock3")
-table.insert(data["techs"]["t_robotics0"].unlocks, "f_bot_twin2")
-table.insert(data["techs"]["t_robotics2"].unlocks, "f_bot_1m1s1")
+table.insert(data.techs.t_tiers_bots1.unlocks, "f_bot_twin2")
+table.insert(data.techs.t_tiers_bots1.unlocks, "f_bot_transporter2")
+table.insert(data.techs.t_tiers_bots2.unlocks, "f_bot_rock3")
+table.insert(data.techs.t_tiers_bots2.unlocks, "f_bot_1m1s1")
 
 Frame:RegisterFrame("f_bot_transporter2", {
 	texture = "AllTheTiers/textures/icons/frame/transport_bot1.png",
@@ -20,7 +20,7 @@ Frame:RegisterFrame("f_bot_transporter2", {
 	components = { { "c_capacitor", "hidden" }, { "c_capacitor", "hidden" } },
 	flags = "AnimateRoot",
 	trigger_channels = "bot",
-	production_recipe = CreateProductionRecipe({ circuit_board = 40, energized_plate = 20, wire = 60 },
+	production_recipe = CreateProductionRecipe({ special_circuit_board = 40, energized_plate = 20, wire = 60 },
 		{ c_robotics_factory = 90 }),
 	visual = "v_bot_transporter2",
 })
@@ -94,7 +94,7 @@ Frame:RegisterFrame("f_bot_twin2", {
 	race = "robot",
 	components = { { "c_capacitor", "hidden" } },
 	flags = "AnimateRoot",
-	trigger_channels = "bot",production_recipe = CreateProductionRecipe({ circuit_board = 100, energized_plate = 40, wire = 100 },
+	trigger_channels = "bot",production_recipe = CreateProductionRecipe({ special_circuit_board = 100, energized_plate = 40, wire = 100 },
 	{ c_robotics_factory = 120 }),
 	visual = "v_bot_twin2",
 })
@@ -135,7 +135,7 @@ Frame:RegisterFrame("f_bot_1m1s1", {
 	flags = "AnimateRoot",
 	components = { { "c_medium_capacitor", "hidden" } },
 	trigger_channels = "bot",
-	production_recipe = CreateProductionRecipe({ circuit_board = 20, hdframe = 20, optic_cable = 5 }, { c_robotics_factory = 80 }),
+	production_recipe = CreateProductionRecipe({ special_circuit_board = 20, hdframe = 20, optic_cable = 5 }, { c_robotics_factory = 80 }),
 	visual = "v_bot_1m1s1_a1",
 })
 data.visuals.v_bot_1m1s1_a1 = {

@@ -1,4 +1,4 @@
-table.insert(data["techs"]["t_structures2"].unlocks, "f_building2x2_2L4M2S")
+table.insert(data.techs.t_tiers_buildings2.unlocks, "f_building2x2_2L4M2S")
 
 Frame:RegisterFrame("f_building2x2_2L4M2S", {
 	name = "2x2 2L4M2S",

@@ -1,5 +1,5 @@
-table.insert(data["techs"]["t_robot_tech_basic"].unlocks, "f_building1x1_storage_48")
-table.insert(data["techs"]["t_robot_tech_basic"].unlocks, "f_building1x1_garage_8")
+table.insert(data.techs.t_tiers_start.unlocks, "f_building1x1_storage_48")
+table.insert(data.techs.t_tiers_start.unlocks, "f_building1x1_garage_8")
 
 Frame:RegisterFrame("f_building1x1_storage_48", {
 	name = "Storage Block (48)",

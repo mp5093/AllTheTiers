@@ -1,9 +1,12 @@
 local package = ...
 
 package.includes = {
+	"tech/create.lua",
+	"tech/tech_special.lua",
 	"frames/",
+	"items/",
 	"components/",
-	"components/production.lua"
+	"recipes/"
 }
 
 function package:init()

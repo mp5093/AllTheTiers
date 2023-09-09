@@ -1,4 +1,4 @@
-table.insert(data["techs"]["t_robotics4"].unlocks, "c_master_turret")
+table.insert(data.techs.t_tiers_4.unlocks, "c_master_turret")
 
 c_master_turret =  data.components.c_turret:RegisterComponent("c_master_turret", {
 	name = "Master Turret",
