@@ -8,7 +8,7 @@ data.components.c_big_miner = data.components.c_miner:RegisterComponent( "c_big_
 	name = "Very Big Miner",
 	texture = "AllTheTiers/textures/icons/components/Component_LaserExtractor_01_M1.png",
 	desc = "Miner that gets it all done",
-	power = 0,
+	power = -6,
 	attachment_size = "Large",
 	visual = "v_laserextractor_01_m",
 	producer_id = "c_big_miner",
@@ -23,7 +23,6 @@ data.components.c_big_miner = data.components.c_miner:RegisterComponent( "c_big_
 	miner_effect = "fx_miner",
 	miner_range = 3,
 	power_storage = 1500,
-	drain_rate = 7,
 	charge_rate = 20,
 })
 
