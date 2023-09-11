@@ -28,8 +28,8 @@ Frame:RegisterFrame("f_building6x4_12L12M", {
 data.visuals.v_base4x3_16L16M = {
 	mesh = "StaticMesh'/Game/Meshes/RobotBuildings/Building_3x2_A.Building_3x2_A'",
 	placement = "Max",
-	tile_size = {6, 4},
-	scale = {2.0, 2.0, 2.0},
+	tile_size = {5, 4},
+	scale = {1.66, 1.66, 1.66},
 	sockets = {
 		{ "Medium3", "Medium" },
 		{ "Medium3", "Medium" },

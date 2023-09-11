@@ -1,5 +1,4 @@
-table.insert(data.tech_categories,
-{
+table.insert(data.tech_categories, {
 	name = "Tiers",
 	initial_tech = "t_tiers_start",
 	sub_categories = { "Tiers" },
