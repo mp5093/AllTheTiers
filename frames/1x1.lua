@@ -8,7 +8,7 @@ Frame:RegisterFrame("f_building1x1_4S", {
 	slots = { storage = 6 },
 	health_points = 200,
 	race = "robot",
-	construction_recipe = CreateConstructionRecipe({ metalplate = 60, special_circuit_board = 20 }, 60),
+	construction_recipe = CreateConstructionRecipe({ metalplate = 60, special_circuit_board = 10 }, 60),
 	trigger_channels = "building",
 	texture = "AllTheTiers/textures/icons/frame/building_1x1_c1.png",
 	visual = "v_base1x1_4S",

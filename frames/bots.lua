@@ -20,7 +20,7 @@ Frame:RegisterFrame("f_bot_transporter2", {
 	components = { { "c_capacitor", "hidden" }, { "c_capacitor", "hidden" } },
 	flags = "AnimateRoot",
 	trigger_channels = "bot",
-	production_recipe = CreateProductionRecipe({ special_circuit_board = 40, energized_plate = 20, wire = 60 },
+	production_recipe = CreateProductionRecipe({ special_circuit_board = 20, energized_plate = 20, wire = 60 },
 		{ c_robotics_factory = 90 }),
 	visual = "v_bot_transporter2",
 })
@@ -28,6 +28,7 @@ data.visuals.v_bot_transporter2 = {
 	mesh = "StaticMesh'/Game/Meshes/RobotUnits/Flyer.Flyer'",
 	light_radius = 8,
 	light_color = { 0.5, 0.5, 0.5, 4 },
+	scale = {1.2, 1.2, 1.2},
 	sockets = {
 		{ "", "Internal" },
 		{ "", "Internal" },
@@ -94,7 +95,7 @@ Frame:RegisterFrame("f_bot_twin2", {
 	race = "robot",
 	components = { { "c_capacitor", "hidden" } },
 	flags = "AnimateRoot",
-	trigger_channels = "bot",production_recipe = CreateProductionRecipe({ special_circuit_board = 100, energized_plate = 40, wire = 100 },
+	trigger_channels = "bot",production_recipe = CreateProductionRecipe({ special_circuit_board = 50, energized_plate = 40, wire = 100 },
 	{ c_robotics_factory = 120 }),
 	visual = "v_bot_twin2",
 })
@@ -102,6 +103,7 @@ data.visuals.v_bot_twin2 = {
 	mesh = "StaticMesh'/Game/Meshes/RobotUnits/Bot_2S_A.Bot_2S_A'",
 	light_radius = 8,
 	light_color = { 0.5, 0.5, 0.5, 3 },
+	scale = {1.2, 1.2, 1.2},
 	sockets = {
 		{ "Small1", "Medium" },
 		{ "Small2", "Medium" },
@@ -135,7 +137,7 @@ Frame:RegisterFrame("f_bot_1m1s1", {
 	flags = "AnimateRoot",
 	components = { { "c_medium_capacitor", "hidden" } },
 	trigger_channels = "bot",
-	production_recipe = CreateProductionRecipe({ special_circuit_board = 20, hdframe = 20, optic_cable = 5 }, { c_robotics_factory = 80 }),
+	production_recipe = CreateProductionRecipe({ special_circuit_board = 10, hdframe = 20, optic_cable = 5 }, { c_robotics_factory = 80 }),
 	visual = "v_bot_1m1s1_a1",
 })
 data.visuals.v_bot_1m1s1_a1 = {
