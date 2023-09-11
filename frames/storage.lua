@@ -76,10 +76,7 @@ data.visuals.v_base1x1e2 = {
 	tile_size = {2, 2},
 	scale = {2.0, 2.0, 2.0},
 	sockets = {
-		{ "", "Internal" },
-		{ "", "Internal" },
-		{ "", "Internal" },
-		{ "", "Internal" },
+		{ "", "Large" },
 		{ "", "Internal" },
 		{ "", "Internal" },
 		{ "", "Internal" },

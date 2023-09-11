@@ -125,3 +125,17 @@ data.techs.t_tiers_4 = {
 	unlocks = {},
 	category = "Tiers",
 }
+
+-- Tier 5
+
+data.techs.t_tiers_end = {
+	order = 1,
+	name = "Fun Tiers",
+	desc = "Because we can!",
+	texture = "AllTheTiers/textures/icons/tech/special.png",
+	uplink_recipe = CreateUplinkRecipe({ anomaly_particle = 2 }, 30),
+	progress_count = 100,
+	require_tech = { "t_tiers_4" },
+	unlocks = {},
+	category = "Tiers",
+}
