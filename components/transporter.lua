@@ -1,5 +1,5 @@
 table.insert(data.techs.t_tiers_components3.unlocks, "c_transporter_big")
-table.insert(data.techs.t_tiers_end.unlocks, "c_transporter_huge")
+table.insert(data.techs.t_tiers_5.unlocks, "c_transporter_huge")
 
 data.components.c_transporter_big = data.components.c_crane:RegisterComponent("c_transporter_big", {
 	name = "Big Transporter",
@@ -19,7 +19,7 @@ data.components.c_transporter_huge = data.components.c_crane:RegisterComponent("
 	visual = "v_transporter_01_m",
 	texture = "AllTheTiers/textures/icons/components/Component_Transporter_01_M2.png",
 	power = -20,
-	desc = "Enables automatic transfer of inventory directly between Buildings or Units. Range: 5",
+	desc = "Enables automatic transfer of inventory directly between Buildings or Units. Range: 10",
 	production_recipe = CreateProductionRecipe({ anomaly_particle = 4, micropro = 20, fused_electrodes = 20 },
         { c_assembler = 240 }),
 	range = 10

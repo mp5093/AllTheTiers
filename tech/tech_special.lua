@@ -128,7 +128,7 @@ data.techs.t_tiers_4 = {
 
 -- Tier 5
 
-data.techs.t_tiers_end = {
+data.techs.t_tiers_5 = {
 	order = 1,
 	name = "Fun Tiers",
 	desc = "Because we can!",
@@ -137,5 +137,5 @@ data.techs.t_tiers_end = {
 	progress_count = 100,
 	require_tech = { "t_tiers_4" },
 	unlocks = {},
-	category = "Tiers",
+	category = "More Tiers",
 }

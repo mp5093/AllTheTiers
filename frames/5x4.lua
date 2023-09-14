@@ -1,4 +1,4 @@
-table.insert(data.techs.t_tiers_end.unlocks, "f_building6x4_12L12M")
+table.insert(data.techs.t_tiers_5.unlocks, "f_building6x4_12L12M")
 
 Frame:RegisterFrame("f_building6x4_12L12M", {
 	name = "6x4 12L12M",

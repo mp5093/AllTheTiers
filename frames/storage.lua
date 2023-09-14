@@ -68,7 +68,7 @@ Frame:RegisterFrame("f_building1x1_storage_192", {
 	trigger_channels = "building",
 	texture = "AllTheTiers/textures/icons/frame/building_1x1_e2.png",
 	visual = "v_base1x1e2",
-	size = "Medium"
+	size = "Large"
 })
 data.visuals.v_base1x1e2 = {
 	mesh = "StaticMesh'/Game/Meshes/RobotBuildings/Building_1x1_E.Building_1x1_E'",

@@ -1,7 +1,6 @@
 table.insert(data.techs.t_tiers_4.unlocks, "c_large_power_relay")
-table.insert(data.techs.t_tiers_4.unlocks, "c_large_power_transmitter")
 table.insert(data.techs.t_tiers_components1.unlocks, "c_wind_turbine_i")
-table.insert(data.techs.t_tiers_end.unlocks, "c_power_bigger")
+table.insert(data.techs.t_tiers_5.unlocks, "c_power_bigger")
 
 data.components.c_wind_turbine_i = data.components.c_wind_turbine:RegisterComponent("c_wind_turbine_i", {
 	name = "Internal Wind Turbine",

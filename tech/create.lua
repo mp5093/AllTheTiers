@@ -1,7 +1,7 @@
 table.insert(data.tech_categories, {
 	name = "Tiers",
 	initial_tech = "t_tiers_start",
-	sub_categories = { "Tiers" },
+	sub_categories = { "Tiers", "More Tiers" },
 	texture = "AllTheTiers/textures/icons/tech/special.png",
 })
 
