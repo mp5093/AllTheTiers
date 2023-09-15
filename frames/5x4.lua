@@ -3,7 +3,7 @@ table.insert(data.techs.t_tiers_5.unlocks, "f_building6x4_12L12M")
 Frame:RegisterFrame("f_building6x4_12L12M", {
 	name = "5x4 12L12M",
 	desc = "An obscene building, with some powerful components installed. (Interface scale will need to be 40% to be usable.)",
-	minimap_color = { 1.0, 0.4, 0.4 },
+	minimap_color = { 1.0, 1.0, 1.0 },
 	visibility_range = 50,
 	slots = { storage = 96 },
 	health_points = 1000,

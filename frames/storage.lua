@@ -59,7 +59,7 @@ data.visuals.v_base1x1f1 = {
 Frame:RegisterFrame("f_building1x1_storage_192", {
 	name = "Storage Block (192)",
 	desc = "A very large 2x2 storage unit.",
-	minimap_color = { 0.8, 0.8, 0.8 },
+	minimap_color = { 0.9, 0.9, 0.9 },
 	visibility_range = 16,
 	slots = { storage = 192 },
 	health_points = 500,
