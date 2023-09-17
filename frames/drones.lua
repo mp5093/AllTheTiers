@@ -43,7 +43,7 @@ data.items.drone_miner_package3 = {
 }
 Frame:RegisterFrame("f_drone_miner_package3", {
 	texture = "AllTheTiers/textures/icons/frame/drone_miner_b1.png",
-	name = "Advanced Miner Drone",
+	name = "Big Miner Drone",
 	minimap_color = { 0.9, 0.9, 0.8 },
 	slot_type = "drone",
 	visibility_range = 12,

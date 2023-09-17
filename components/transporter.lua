@@ -31,6 +31,6 @@ data.components.c_transporter_huge = data.components.c_crane:RegisterComponent("
 data.visuals.v_transporter_01_h = {
 	mesh = "StaticMesh'/Game/Meshes/BaseBuildings/Component_Transporter_01_M.Component_Transporter_01_M'",
 	scale = {1.5, 1.5, 1.5},
-	light_color = { 1.0, 0.2, 1.0, 0.8 },
+	light_color = { 1.0, 0.2, 1.0, 8 },
 	light_radius = 10,
 }

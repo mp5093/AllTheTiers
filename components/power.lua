@@ -25,14 +25,14 @@ data.components.c_power_huge = data.components.c_power_unit:RegisterComponent("c
 	texture = "AllTheTiers/textures/icons/components/component_powercore_01_l1.png",
 	desc = "Some serious power",
 	visual = "v_power_cell_01_h",
-	production_recipe = CreateProductionRecipe({ fused_electrodes = 80, anomaly_particle = 5 }, {c_assembler = 400 }),
+	production_recipe = CreateProductionRecipe({ fused_electrodes = 80, anomaly_particle = 20 }, {c_assembler = 400 }),
 	attachment_size = "Large",
 	power = 20000,
 	transfer_radius = 40,
 })
 data.visuals.v_power_cell_01_h = {
 	mesh = "StaticMesh'/Game/Meshes/BaseBuildings/Component_PowerCell_01_S.Component_PowerCell_01_S'",
-	light_color = { 0.2, 0.2, 1.0, 0.8 },
-	light_radius = 5,
+	light_color = { 0.2, 0.2, 1.0, 32 },
+	light_radius = 8,
 	scale = {2.5, 2.5, 2.5}
 }

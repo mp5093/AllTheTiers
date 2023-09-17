@@ -15,7 +15,7 @@ Frame:RegisterFrame("f_foundation_tier1", {
 	type = "Foundation",
 	name = "FoundationUpgrade",
 	desc = "The ground foundation that gives a 50% speed boost, as well as lighting a small area.",
-	minimap_color = { 0.2, 0.2, 0.9 },
+	minimap_color = { 0.8, 0.5, 0.1 },
 	construction_recipe = CreateConstructionRecipe({ foundationplate_tier1 = 1 }, 1),
 	cost_modifier = 0.5,
 	health_points = 1,

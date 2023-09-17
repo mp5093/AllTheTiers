@@ -2,6 +2,8 @@ table.insert(data.techs.t_tiers_bots1.unlocks, "f_bot_twin2")
 table.insert(data.techs.t_tiers_bots1.unlocks, "f_bot_transporter2")
 table.insert(data.techs.t_tiers_bots2.unlocks, "f_bot_rock3")
 table.insert(data.techs.t_tiers_bots2.unlocks, "f_bot_1m1s1")
+table.insert(data.techs.t_tiers_5.unlocks, "f_bot_twin3")
+table.insert(data.techs.t_tiers_5.unlocks, "f_bot_rock8")
 
 Frame:RegisterFrame("f_bot_transporter2", {
 	texture = "AllTheTiers/textures/icons/frame/transport_bot1.png",
@@ -95,8 +97,8 @@ Frame:RegisterFrame("f_bot_twin2", {
 	race = "robot",
 	components = { { "c_capacitor", "hidden" } },
 	flags = "AnimateRoot",
-	trigger_channels = "bot",production_recipe = CreateProductionRecipe({ special_circuit_board = 50, energized_plate = 40, wire = 100 },
-	{ c_robotics_factory = 120 }),
+	trigger_channels = "bot",
+	production_recipe = CreateProductionRecipe({ special_circuit_board = 50, energized_plate = 40, wire = 100 }, { c_robotics_factory = 120 }),
 	visual = "v_bot_twin2",
 })
 data.visuals.v_bot_twin2 = {
@@ -144,6 +146,7 @@ data.visuals.v_bot_1m1s1_a1 = {
 	mesh = "StaticMesh'/Game/Meshes/RobotUnits/Bot_1M1S_A.Bot_1M1S_A'",
 	light_radius = 8,
 	light_color = { 0.5, 0.5, 0.5, 3 },
+	scale = {1.2, 1.2, 1.2},
 	sockets = {
 		{ "Medium1", "Medium" },
 		{ "Medium1", "Medium" },
@@ -153,6 +156,89 @@ data.visuals.v_bot_1m1s1_a1 = {
 		{ "", "Internal" },
 		{ "", "Internal" },
 		{ "", "Internal" }
+	},
+	move_effect = "fx_move_bot",
+	destroy_effect = "fx_digital",
+}
+
+Frame:RegisterFrame("f_bot_twin3", {
+	texture = "AllTheTiers/textures/icons/frame/bot_2s_a2.png",
+	name = "Twin 3",
+	desc = "Even Bigger Twin",
+	minimap_color = { 0.9, 0.9, 0.8 },
+	slot_type = "garage",
+	visibility_range = 30,
+	slots = { storage = 48, },
+	movement_speed = 12,
+	start_disconnected = true,
+	power = -10,
+	size = "Unit",
+	health_points = 1000,
+	race = "robot",
+	components = { { "c_power_core", "hidden" } },
+	flags = "AnimateRoot",
+	trigger_channels = "bot",
+	production_recipe = CreateProductionRecipe({ micropro = 50, anomaly_particle = 10, fused_electrodes = 100 }, { c_robotics_factory = 240 }),
+	visual = "v_bot_twin3",
+})
+data.visuals.v_bot_twin3 = {
+	mesh = "StaticMesh'/Game/Meshes/RobotUnits/Bot_2S_A.Bot_2S_A'",
+	light_radius = 8,
+	light_color = { 0.5, 0.5, 0.5, 8},
+	scale = {1.6, 1.6, 1.6},
+	sockets = {
+		{ "Small1", "Large" },
+		{ "Small2", "Large" },
+		{ "", "Medium" },
+		{ "", "Medium" },
+		{ "", "Medium" },
+		{ "", "Medium" },
+		{ "", "Small" },
+		{ "", "Small" },
+		{ "", "Small" },
+		{ "", "Small" },
+		{ "", "Internal" },
+		{ "", "Internal" },
+	},
+	move_effect = "fx_move_bot",
+	destroy_effect = "fx_digital",
+}
+
+Frame:RegisterFrame("f_bot_rock8", {
+	texture = "AllTheTiers/textures/icons/frame/bot_1l_a2.png",
+	name = "Rock 8",
+	desc = "Even Bigger Rock, and more deadly",
+	minimap_color = { 0.9, 0.9, 0.8 },
+	slot_type = "garage",
+	visibility_range = 40,
+	slots = { storage = 24, },
+	movement_speed = 12,
+	start_disconnected = true,
+	power = -20,
+	size = "Unit",
+	health_points = 2000,
+	race = "robot",
+	components = { { "c_power_core", "hidden" }, { "c_master_turret", "hidden" } },
+	flags = "AnimateRoot",
+	trigger_channels = "bot",
+	production_recipe = CreateProductionRecipe({ micropro = 50, anomaly_particle = 10, fused_electrodes = 100 },
+		{ c_robotics_factory = 320 }),
+	visual = "v_bot_rock8",
+})
+data.visuals.v_bot_rock8 = {
+	mesh = "StaticMesh'/Game/Meshes/RobotUnits/Bot_1L_A.Bot_1L_A'",
+	light_radius = 16,
+	light_color = { 0.8, 0.8, 0.8, 3 },
+	scale = {1.3, 1.3, 1.3},
+	sockets = {
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
+		{ "Large1", "Large" },
 	},
 	move_effect = "fx_move_bot",
 	destroy_effect = "fx_digital",
