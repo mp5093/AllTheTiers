@@ -1,6 +1,7 @@
 table.insert(data.techs.t_tiers_start.unlocks, "f_building1x1_storage_48")
 table.insert(data.techs.t_tiers_buildings2.unlocks, "f_building1x1_storage_192")
 table.insert(data.techs.t_tiers_start.unlocks, "f_building1x1_garage_8")
+table.insert(data.techs.t_tiers_buildings1.unlocks, "f_building1x1_garage_24")
 
 Frame:RegisterFrame("f_building1x1_storage_48", {
 	name = "Storage Block (48)",
@@ -81,6 +82,32 @@ data.visuals.v_base1x1e2 = {
 		{ "", "Internal" },
 		{ "", "Internal" },
 		{ "", "Internal" }
+	},
+	destroy_effect = "fx_digital",
+	place_effect = "fx_digital_in"
+}
+
+Frame:RegisterFrame("f_building1x1_garage_24", {
+	name = "Garage (24)",
+	desc = "A large garage.",
+	minimap_color = { 0.8, 0.8, 0.8 },
+	visibility_range = 16,
+	slots = { garage = 24 },
+	health_points = 500,
+	race = "robot",
+	construction_recipe = CreateConstructionRecipe({ reinforced_plate = 40, special_circuit_board = 20 }, 15),
+	trigger_channels = "building",
+	texture = "AllTheTiers/textures/icons/frame/building_1x1_e3.png",
+	visual = "v_base1x1e3",
+	size = "Large"
+})
+data.visuals.v_base1x1e3 = {
+	mesh = "StaticMesh'/Game/Meshes/RobotBuildings/Building_1x1_E.Building_1x1_E'",
+	placement = "Max",
+	tile_size = {2, 2},
+	scale = {2.0, 2.0, 2.0},
+	sockets = {
+		{ "", "Large" },
 	},
 	destroy_effect = "fx_digital",
 	place_effect = "fx_digital_in"
