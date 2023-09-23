@@ -60,7 +60,7 @@ Frame:RegisterFrame("f_bot_rock3", {
 	components = { { "c_capacitor", "hidden" } },
 	flags = "AnimateRoot",
 	trigger_channels = "bot",
-	production_recipe = CreateProductionRecipe({ icchip = 25, hdframe = 25, optic_cable = 50 },
+	production_recipe = CreateProductionRecipe({ special_icchip = 25, hdframe = 25, optic_cable = 50 },
 		{ c_robotics_factory = 160 }),
 	visual = "v_bot_rock3",
 })

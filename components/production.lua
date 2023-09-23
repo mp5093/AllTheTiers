@@ -12,9 +12,9 @@ data.components.c_assembler_big = data.components.c_fabricator:RegisterComponent
 	attachment_size = "Large",
 	production_sound = "fx_assembler",
 	power = -30,
-	production_recipe = CreateProductionRecipe({ energized_plate = 20, optic_cable = 20, icchip = 10 }, {c_assembler = 100 }),
+	production_recipe = CreateProductionRecipe({ energized_plate = 20, optic_cable = 20, special_icchip = 10 }, {c_assembler = 100 }),
 })
 data.visuals.v_assembler_01_m1  = { mesh = "StaticMesh'/Game/Meshes/BaseBuildings/Component_Assembler_01_M.Component_Assembler_01_M'", 
 	light_color = { 0.8, 0.8, 0.8, 0.8 },
-	scale = {1.5, 1.5, 1.5}
+	scale = {1.5, 1.5, 1.5},
 }

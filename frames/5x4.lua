@@ -18,7 +18,7 @@ Frame:RegisterFrame("f_building6x4_12L12M", {
 		{ "c_transporter_big", "hidden" },
 		{ "c_transporter_big", "hidden" }
 	},
-	construction_recipe = CreateConstructionRecipe({ energized_plate = 200, ldframe = 50, micropro = 40, fused_electrodes = 80, icchip = 40, anomaly_particle = 20 }, 400),
+	construction_recipe = CreateConstructionRecipe({ energized_plate = 200, ldframe = 50, micropro = 40, fused_electrodes = 80, special_icchip = 40, anomaly_particle = 20 }, 400),
 	trigger_channels = "building",
 	texture = "AllTheTiers/textures/icons/frame/building_4x3_a.png",
 	visual = "v_base4x3_16L16M",
