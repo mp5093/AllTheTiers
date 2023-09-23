@@ -1,4 +1,5 @@
 table.insert(data.techs.t_tiers_start.unlocks, "special_circuit_board")
+table.insert(data.techs.t_tiers_components1.unlocks, "special_icchip")
 
 data.items.special_circuit_board = {
 	name = "Special Circuit Board",
@@ -18,6 +19,6 @@ data.items.special_icchip = {
 	stack_size = 20,
 	slot_type = "storage",
 	visual = "v_icchip",
-	texture = "AllTheTiers/textures/icons/items/icchip1.png.png",
+	texture = "AllTheTiers/textures/icons/items/icchip1.png",
 	production_recipe = CreateProductionRecipe({ silicon = 5, special_circuit_board = 5, cable = 5 }, { c_robotics_factory = 300 }),
 }
