@@ -26,9 +26,9 @@ data.components.c_big_miner = data.components.c_miner:RegisterComponent( "c_big_
 	charge_rate = 20,
 })
 
-data.items.crystal.mining_recipe.c_big_miner = 8
-data.items.metalore.mining_recipe.c_big_miner = 8
-data.items.silica.mining_recipe.c_big_miner = 8
-data.items.laterite.mining_recipe.c_big_miner = 12
-data.items.obsidian.mining_recipe.c_big_miner = 12
-data.items.blight_crystal.mining_recipe.c_big_miner = 12
+data.items.crystal.mining_recipe.c_big_miner = 4
+data.items.metalore.mining_recipe.c_big_miner = 5
+data.items.silica.mining_recipe.c_big_miner = 5
+data.items.laterite.mining_recipe.c_big_miner = 10
+data.items.obsidian.mining_recipe.c_big_miner = 15
+data.items.blight_crystal.mining_recipe.c_big_miner = 8
