@@ -28,5 +28,4 @@ data.visuals.v_foundation_tier1 = {
 	tile_size = { 1, 1 },
 	light_radius = 2,
 	light_color = { 1, 1, 0, 0.4 },
-	-- light_offset = { 1.0, 1.0, 1.0 },
 }
