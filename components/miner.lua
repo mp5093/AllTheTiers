@@ -22,7 +22,6 @@ data.components.c_big_miner = data.components.c_miner:RegisterComponent( "c_big_
 	slot_type = "storage",
 	miner_effect = "fx_miner",
 	miner_range = 3,
-	power_storage = 1500,
 	charge_rate = 20,
 })
 

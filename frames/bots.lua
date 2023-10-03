@@ -150,6 +150,8 @@ data.visuals.v_bot_1m1s1_a1 = {
 	sockets = {
 		{ "Medium1", "Medium" },
 		{ "Medium1", "Medium" },
+		{ "Medium1", "Medium" },
+		{ "Small1", "Small" },
 		{ "Small1", "Small" },
 		{ "Small1", "Small" },
 		{ "", "Internal" },
