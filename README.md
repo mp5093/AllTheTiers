@@ -4,9 +4,6 @@ A work in progress that I hope to update further, which may include big changes 
 
 This mod is designed for the experimental branch of the game. It may make use of items not yet in the stable branch.
 
-For any issues please report them on github:
-https://github.com/lukejdav/AllTheTiers
-
 A mod for desynced which aims to add further tiers to many entities.
 Also unlocks higher base game tiers that are not yet accessible.
 
