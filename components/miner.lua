@@ -12,7 +12,7 @@ data.components.c_big_miner = data.components.c_miner:RegisterComponent( "c_big_
 	attachment_size = "Large",
 	visual = "v_laserextractor_01_m",
 	producer_id = "c_big_miner",
-	race = "bots",
+	race = "robot",
 	production_recipe = CreateProductionRecipe({ crystal_powder = 20, special_icchip = 20, cable = 20 },
 		{ c_assembler = 120 }),
 	activation = "OnFirstRegisterChange",
