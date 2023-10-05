@@ -119,7 +119,7 @@ data.techs.t_tiers_4 = {
 	name = "All The Tiers 4",
 	desc = "Some Serious Upgrades",
 	texture = "Main/textures/icons/items/anomaly_particle.png",
-	uplink_recipe = CreateUplinkRecipe({ special_icchip = 4, robot_research = 1, human_research = 1, blight_research = 1, virus_research = 1 }, 60),
+	uplink_recipe = CreateUplinkRecipe({ rainbow_research = 1 }, 60),
 	progress_count = 50,
 	require_tech = { "t_tiers_components3" },
 	unlocks = {},

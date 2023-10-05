@@ -13,7 +13,7 @@ data.components.c_modulegod = data.components.c_moduleefficiency:RegisterCompone
 	slots = { storage = 16, },
 	boost = 300,
 	power = 100,
-	production_recipe = CreateProductionRecipe({ special_icchip = 20, hdframe = 20, optic_cable = 20, refined_crystal = 10 }, { c_assembler_big = 300 }),
+	production_recipe = CreateProductionRecipe({ rainbow_research = 4, hdframe = 20, optic_cable = 20, refined_crystal = 10 }, { c_assembler_big = 300 }),
 	on_add = BoostModuleOnAdd,
 	on_remove = BoostModuleOnRemove,
 })
