@@ -34,5 +34,5 @@ data.visuals.v_power_cell_01_h = {
 	mesh = "StaticMesh'/Game/Meshes/BaseBuildings/Component_PowerCell_01_S.Component_PowerCell_01_S'",
 	light_color = { 0.2, 0.2, 1.0, 32 },
 	light_radius = 8,
-	scale = {2.5, 2.5, 2.5}
+	scale = {1.0, 1.0, 1.0}
 }

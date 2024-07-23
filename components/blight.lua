@@ -12,6 +12,6 @@ c_blight_extractor_tier1 = data.components.c_blight_extractor:RegisterComponent(
 	extraction_time = 25,
 })
 data.visuals.v_blightextractor_tier1 = {
-	scale = {1.5, 1.5, 1.5},
+	scale = {1.2, 1.2, 1.2},
 	mesh = "StaticMesh'/Game/Meshes/BaseBuildings/Component_BlightExtractor_01_S.Component_BlightExtractor_01_S'"
 }
