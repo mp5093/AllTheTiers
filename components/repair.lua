@@ -15,5 +15,5 @@ c_repairer_big = data.components.c_repairer:RegisterComponent( "c_repairer_big",
 })
 data.visuals.v_repairer_01_m1 = {
 	mesh = "StaticMesh'/Game/Meshes/BaseBuildings/Component_Repairer_01_M.Component_Repairer_01_M'",
-	scale = {1.5, 1.5, 1.5},
+	scale = {1.2, 1.2, 1.2},
 }

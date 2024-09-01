@@ -20,11 +20,11 @@ data.components.c_modulegod = data.components.c_moduleefficiency:RegisterCompone
 
 data.components.c_anomaly_slot = Comp:RegisterComponent("c_anomaly_slot",{
 	name = "Anomaly Slot",
-	desc = "A single slot to hold anomaly particles",
+	desc = "Hold 4 anomaly particles",
 	attachment_size = "Internal",
 	texture = "AllTheTiers/textures/icons/components/anomaly_storage.png",
 	visual = "v_generic_i",
 	production_recipe = CreateProductionRecipe({ robot_research = 1, human_research = 1, blight_research = 1, virus_research = 1 }, { c_assembler = 300 }),
-	slots = { anomaly = 1, },
+	slots = { anomaly = 4, },
 	race = "alien"
 })
